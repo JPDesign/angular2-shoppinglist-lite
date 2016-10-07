@@ -6,7 +6,6 @@ import {ProductService} from './products.service';
 	selector: 'shopping-list',
 	template: `
 		<h1>{{title}}</h1>
-		<p>Platzhalter für die Liste ...</p>
 		<product-list [products]="products"></product-list>
 	`,
 	styleUrls: ['./app/templates/app.styles.css']
@@ -15,7 +14,7 @@ export class AppComponent {
 	constructor(
 		private productService: ProductService
 	) {};
-	title: string = 'Einkaufsliste';
+	title: string = 'Einkaufsliste (lite)';
 	products: Product[];
 	ngOnInit(): void {
 		this

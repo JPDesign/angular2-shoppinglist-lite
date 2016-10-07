@@ -1,0 +1,9 @@
+<aside>
+	<h2>{{title}}</h2>
+	<ul *ngFor="let product of products">
+		<li>
+			<button>{{product.name}}</button>
+			<small>{{product.countTotal}} Mal gekauft</small>
+		</li>
+	</ul>
+</aside>
