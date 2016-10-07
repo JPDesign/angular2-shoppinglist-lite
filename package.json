@@ -1,8 +1,11 @@
 {
   "name": "Shoppinglist-lite",
   "version": "1.0.0",
-  "description": "Basic demo app for Angular2",
-  "private": true,
+  "description": "Basic demo app for Angular 2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wortwart/angular2-shoppinglist-lite.git"
+  },
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\"",
     "postinstall": "typings install",
